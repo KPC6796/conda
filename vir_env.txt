@@ -4,6 +4,12 @@ conda create -n '<env_name>'
 ## Activate the virtual environment
 conda activate 'env_name'
 
+## Deactivate the virtual environment
+conda deactivate
+
+## Remove a virtual environment
+conda env remove -n 'env_name'
+
 ## Make sure that ipykernel is installed
 pip install --user ipykernel
 
